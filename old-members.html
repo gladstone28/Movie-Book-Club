@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Members - Book Club</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <h1>Our Members</h1>
@@ -16,23 +18,15 @@
         </nav>
     </header>
     <main>
-        <section id="login-section">
-            <h2>Enter Password to View and Add Members</h2>
-            <input type="password" id="password" placeholder="Enter Password">
-            <button onclick="login()">Submit</button>
-            <p id="login-error" style="color:red; display:none;">Incorrect password. Please try again.</p>
-        </section>
-        <section id="members-section" style="display:none;">
+        <section>
             <h2>Book Club Members</h2>
             <ul id="members-list"></ul>
-            <h3>Add a New Member</h3>
-            <input type="text" id="new-member" placeholder="Enter New Member Name">
-            <button onclick="addMember()">Add Member</button>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Book Club</p>
+        <p>&copy; 2024 Roseberry Book Club</p>
     </footer>
     <script src="members.js"></script>
 </body>
+
 </html>
