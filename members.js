@@ -2,9 +2,12 @@ const password = "bookclub2024"; // Set your password here
 const members = [
     { name: "Natalya" },
     { name: "Andre" },
-    { name: "John" },
-    { name: "Jane" }
+    { name: "Gladstone" },
+    { name: "Jeaneth" },
+    { name: "Nadia" },
+    { name: "Alaina" }
 ];
+
 
 const membersList = document.getElementById('members-list');
 const loginSection = document.getElementById('login-section');
