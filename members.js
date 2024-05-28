@@ -1,7 +1,8 @@
 const password = "bookclub2024"; // Set your password here
 const members = [
     { name: "Natalya Scarlett" },
-
+    { name: "Daisy Rose" },
+    { name: "Arielle Johnson" },
     { name: "Gladstone Rose" },
     { name: "Jeaneth Rose" },
     { name: "Nadia Rose" },
