@@ -1,14 +1,18 @@
 const books = [
-    { title: "To Kill a Mockingbird", author: "Harper Lee" },
-    { title: "1984", author: "George Orwell" },
-    { title: "Pride and Prejudice", author: "Jane Austen" },
-    { title: "The Great Gatsby", author: "F. Scott Fitzgerald" }
+    { title: "To Kill a Mockingbird", author: "Harper Lee", file: "to_kill_a_mockingbird.pdf" },
+    { title: "1984", author: "George Orwell", file: "1984.pdf" },
+    { title: "Pride and Prejudice", author: "Jane Austen", file: "pride_and_prejudice.pdf" },
+    { title: "The Great Gatsby", author: "F. Scott Fitzgerald", file: "the_great_gatsby.pdf" }
 ];
 
 const libraryList = document.getElementById('library-list');
 
 books.forEach(book => {
     const listItem = document.createElement('li');
-    listItem.textContent = `${book.title} by ${book.author}`;
+    const link = document.createElement('a');
+    link.textContent = `${book.title} by ${book.author}`;
+    link.href = `pdfs/${book.file}`;
+    link.download = book.file;
+    listItem.appendChild(link);
     libraryList.appendChild(listItem);
 });
