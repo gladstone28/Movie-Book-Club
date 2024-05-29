@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +16,13 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section id="login-section">
+            <h2>Enter Password to View Q&A</h2>
+            <input type="password" id="password" placeholder="Enter Password">
+            <button onclick="login()">Submit</button>
+            <p id="login-error" style="color:red; display:none;">Incorrect password. Please try again.</p>
+        </section>
+        <section id="qa-section" style="display:none;">
             <h2>Questions and Answers</h2>
             <div id="qa-container"></div>
         </section>

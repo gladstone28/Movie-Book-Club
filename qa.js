@@ -1,3 +1,4 @@
+const password = "bookclub2024"; // Set your password here
 const qaList = [
     { question: "Who is the narrator of the story?", answer: "Scout Finch (Jean Louise Finch) is the narrator of the story." },
     { question: "What is the setting of the novel?", answer: "The novel is set in the fictional town of Maycomb, Alabama, during the 1930s." },
@@ -27,14 +28,30 @@ const qaList = [
 ];
 
 const qaContainer = document.getElementById('qa-container');
+const loginSection = document.getElementById('login-section');
+const qaSection = document.getElementById('qa-section');
+const loginError = document.getElementById('login-error');
 
-qaList.forEach(item => {
-    const questionElement = document.createElement('h3');
-    questionElement.textContent = item.question;
-    
-    const answerElement = document.createElement('p');
-    answerElement.textContent = item.answer;
-    
-    qaContainer.appendChild(questionElement);
-    qaContainer.appendChild(answerElement);
-});
+function login() {
+    const inputPassword = document.getElementById('password').value;
+    if (inputPassword === password) {
+        loginSection.style.display = 'none';
+        qaSection.style.display = 'block';
+        displayQA();
+    } else {
+        loginError.style.display = 'block';
+    }
+}
+
+function displayQA() {
+    qaList.forEach(item => {
+        const questionElement = document.createElement('h3');
+        questionElement.textContent = item.question;
+        
+        const answerElement = document.createElement('p');
+        answerElement.textContent = item.answer;
+        
+        qaContainer.appendChild(questionElement);
+        qaContainer.appendChild(answerElement);
+    });
+}
