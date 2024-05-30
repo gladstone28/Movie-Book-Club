@@ -1,4 +1,4 @@
-const password = "bookclub2024"; // Set your password here
+const password = "completed"; // Set your password here
 const qaList = [
     { question: "Who is the narrator of the story?", answer: "Scout Finch (Jean Louise Finch) is the narrator of the story." },
     { question: "What is the setting of the novel?", answer: "The novel is set in the fictional town of Maycomb, Alabama, during the 1930s." },
@@ -47,10 +47,10 @@ function displayQA() {
     qaList.forEach(item => {
         const questionElement = document.createElement('h3');
         questionElement.textContent = item.question;
-        
+
         const answerElement = document.createElement('p');
         answerElement.textContent = item.answer;
-        
+
         qaContainer.appendChild(questionElement);
         qaContainer.appendChild(answerElement);
     });
