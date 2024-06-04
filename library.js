@@ -2,7 +2,8 @@ const books = [
     { title: "To Kill a Mockingbird", author: "Harper Lee", file: "to_kill_a_mockingbird.pdf" },
     { title: "1984", author: "George Orwell", file: "1984.pdf" },
     { title: "Pride and Prejudice", author: "Jane Austen", file: "pride_and_prejudice.pdf" },
-    { title: "The Great Gatsby", author: "F. Scott Fitzgerald", file: "the_great_gatsby.pdf" }
+    { title: "The Great Gatsby", author: "F. Scott Fitzgerald", file: "the_great_gatsby.pdf" },
+    { title: "The Little Black Fish", author: "Samad Behrangi", file: "The-little-black-fish.pdf" }
 ];
 
 const libraryList = document.getElementById('library-list');
