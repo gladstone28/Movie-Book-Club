@@ -1,8 +1,8 @@
-| Name              | Number of Books |
+| Name              | Number of Books Read|
 | -----------       | -----------   |
 | Daisy Rose        | 2             |
 | Gladstone Rose    | 2             |
-| Natalya Scarlett  l 0             |
+| Natalya Scarlett  | 0             |
 | Nadia Rose        | 0             |
 | Jeaneth Rose      | 0             |
 | Imani Rainford    | 0             |
