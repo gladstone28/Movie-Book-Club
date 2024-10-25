@@ -7,7 +7,7 @@ const books = [
     { title: "Great Expectations", author: "Charles Dickens", file: "great-expectations.pdf" },
     { title: "Animal Farm", author: "George Orwell", file: "orwellanimalfarm.pdf" },
     { title: "the Pelican Brief", author: "John Grisham", file: "The-Pelican-Brief.pdf" },
-    { title: "the Pelican Brief", author: "John Grisham", file: "The-Pelican-Brief.pdf" }
+    { title: "The Catcher in the Rye", author: "JD Salinger", file: "The_Catcher_in_the_Rye.pdf" }
 
 ];
 
