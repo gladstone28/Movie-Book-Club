@@ -6,7 +6,9 @@ const books = [
     { title: "The Little Black Fish", author: "Samad Behrangi", file: "The-little-black-fish.pdf" },
     { title: "Great Expectations", author: "Charles Dickens", file: "great-expectations.pdf" },
     { title: "Animal Farm", author: "George Orwell", file: "orwellanimalfarm.pdf" },
+    { title: "the Pelican Brief", author: "John Grisham", file: "The-Pelican-Brief.pdf" },
     { title: "the Pelican Brief", author: "John Grisham", file: "The-Pelican-Brief.pdf" }
+
 ];
 
 const libraryList = document.getElementById('library-list');
